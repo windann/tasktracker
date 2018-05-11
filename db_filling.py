@@ -1,6 +1,6 @@
 import pymysql
 from random import choice as ch, randint as r
-from transliterate import translit, get_available_language_codes
+from transliterate import translit
 import datetime
 
 from faker import Faker
@@ -11,6 +11,7 @@ def connection_close(cur,conn):
     cur.close()
     conn.close()
 
+
 def insert_into_type(cur,conn):
     task_type = ['работа', 'учёба', 'дом', 'покупки']
 
@@ -18,6 +19,7 @@ def insert_into_type(cur,conn):
         sql_query = "INSERT INTO type(idtype,type_name) VALUES({}, '{}')".format(i,task_type[i])
         cur.execute(sql_query)
     conn.commit()
+
 
 def insert_into_task(cur,conn):
 
@@ -82,7 +84,7 @@ def insert_into_task(cur,conn):
 
             name = ch(work)
 
-        sql_query = "INSERT INTO task(taskid, date, status, name, type, user_token, base_task_id) VALUES({},'{}','{}','{}',{},{},{})".format(i,
+        sql_query = "INSERT INTO task(taskid, date, status, name, type, user_token, base_task_id) VALUES({},'{}','{}','{}',{},'{}',{})".format(i,
                                                                                                                                date, status, name, category_id, user, base_task_id)
         cur.execute(sql_query)
         conn.commit()
