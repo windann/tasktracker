@@ -35,7 +35,8 @@ def insert_into_task(cur,conn):
     cur.execute(user_token_sql_query)
     user_token = [elem[0] for elem in cur]
 
-    status = 'created'
+    # 1 - created 2 - in progress 3 - done
+    status = 1
 
     for i in range(count_user):
 
@@ -53,7 +54,7 @@ def insert_into_task(cur,conn):
         if base_tasks:
             base_task_id = ch(base_tasks)
         else:
-            base_task_id = 0
+            base_task_id = 'null'
 
         if category == 'покупки':
             products = ['молоко', 'хлеб', 'кефир', 'яблоки', 'шоколад', 'капуста', 'сок']
@@ -84,21 +85,28 @@ def insert_into_task(cur,conn):
 
             name = ch(work)
 
-        sql_query = "INSERT INTO task(taskid, date, status, name, type, user_token, base_task_id) VALUES({},'{}','{}','{}',{},'{}',{})".format(i,
-                                                                                                                               date, status, name, category_id, user, base_task_id)
-        cur.execute(sql_query)
+        sql_query = "INSERT INTO task(date, status, name, type, user_token, base_task_id) VALUES('{}','{}','{}',{},'{}',{})".format(
+                                                                                    date, status, name, category_id, user, base_task_id)
+
+
+        try:
+            cur.execute(sql_query)
+        except pymysql.err.IntegrityError:
+            pass
+
+
         conn.commit()
 
 
 def insert_into_user(cur,conn):
-    sex_list = ['M', 'F']
 
     for i in range(40):
 
         age = r(14, 99)
-        sex = ch(sex_list)
+        # 1 - F 2 - M
+        sex = r(1,2)
 
-        if sex == 'F':
+        if sex == 1:
             first_name = fake.first_name_female()
             last_name = fake.last_name_female()
         else:
@@ -107,11 +115,14 @@ def insert_into_user(cur,conn):
 
         login = translit(first_name[:2], reversed=True) + translit(last_name[:2], reversed=True) + str(age)
 
-        sql_query = "INSERT INTO user(token, first_name, last_name, age, sex) VALUES ('{}','{}','{}',{},'{}')".format(login,
+        sql_query = "INSERT INTO user(token, first_name, last_name, age, sex) VALUES ('{}','{}','{}',{},{})".format(login,
                                                                                                               first_name,
                                                                                                               last_name,
-                                                                                                     age, sex)
+                                                                                                   age, sex)
+
         cur.execute(sql_query)
+
+
     conn.commit()
 
 

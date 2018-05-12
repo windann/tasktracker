@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af8733f7-a38d-4f58-86c7-038cf8fec2eb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/class_connection.py" afterPath="$PROJECT_DIR$/class_connection.py" />
+      <change beforePath="$PROJECT_DIR$/db_filling.py" afterPath="$PROJECT_DIR$/db_filling.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,8 +14,8 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/tasktracker$test.coverage" NAME="test Coverage Results" MODIFIED="1525971946900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/tasktracker$class_connection.coverage" NAME="class_connection Coverage Results" MODIFIED="1525976146558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/tasktracker$db_filling.coverage" NAME="db_filling Coverage Results" MODIFIED="1525972033044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tasktracker$class_connection.coverage" NAME="class_connection Coverage Results" MODIFIED="1526154256110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tasktracker$db_filling.coverage" NAME="db_filling Coverage Results" MODIFIED="1526101837975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/tasktracker$db_connection.coverage" NAME="db_connection Coverage Results" MODIFIED="1525977077839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
@@ -22,25 +23,23 @@
       <file leaf-file-name="class_connection.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/class_connection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="539">
-              <caret line="89" column="38" lean-forward="false" selection-start-line="89" selection-start-column="38" selection-end-line="89" selection-end-column="38" />
+            <state relative-caret-position="412">
+              <caret line="83" column="52" lean-forward="true" selection-start-line="83" selection-start-column="52" selection-end-line="83" selection-end-column="52" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
-                <marker date="1525977295696" expanded="true" signature="561:670" ph="select b.nam... task" />
-                <marker date="1525977295696" expanded="true" signature="880:925" ph="SELECT name task" />
-                <marker date="1525977295696" expanded="true" signature="1275:1321" ph="SELECT idtyp... type" />
-                <marker date="1525977295696" expanded="true" signature="1462:1487" ph="SELECT COUNT... task" />
-                <marker date="1525977295696" expanded="true" signature="1667:1780" ph="INSERT INTO task... " />
-                <marker date="1525977295696" expanded="true" signature="2136:2214" ph="UPDATE task... " />
-                <marker date="1525977295696" expanded="true" signature="2306:2384" ph="UPDATE task... " />
-                <marker date="1525977295696" expanded="true" signature="2661:2727" ph="UPDATE task... " />
-                <marker date="1525977295696" expanded="true" signature="2661:2728" ph="UPDATE task... " />
-                <marker date="1525977295696" expanded="true" signature="2661:2732" ph="UPDATE task... " />
-                <marker date="1525977295696" expanded="true" signature="2830:2901" ph="UPDATE task... " />
-                <marker date="1525977295696" expanded="true" signature="3067:3103" ph="SELECT statu... task" />
-                <marker date="1525977295696" expanded="true" signature="3067:3105" ph="SELECT statu... task" />
-                <marker date="1525977295696" expanded="true" signature="3067:3112" ph="SELECT statu... task" />
-                <marker date="1525977295696" expanded="true" signature="3067:3130" ph="SELECT statu... task" />
+                <marker date="1526154256099" expanded="true" signature="541:659" ph="select b.nam... task" />
+                <marker date="1526154256099" expanded="true" signature="541:678" ph="select b.tas... task" />
+                <marker date="1526154256099" expanded="true" signature="541:683" ph="select b.tas... task" />
+                <marker date="1526154256099" expanded="true" signature="1030:1076" ph="SELECT idtyp... type" />
+                <marker date="1526154256099" expanded="true" signature="1247:1345" ph="INSERT INTO task... " />
+                <marker date="1526154256099" expanded="true" signature="1470:1570" ph="INSERT INTO task... " />
+                <marker date="1526154256099" expanded="true" signature="1994:2057" ph="SELECT taski... task" />
+                <marker date="1526154256099" expanded="true" signature="2363:2397" ph="UPDATE task... " />
+                <marker date="1526154256099" expanded="true" signature="2363:2410" ph="UPDATE task... " />
+                <marker date="1526154256099" expanded="true" signature="2595:2631" ph="SELECT statu... task" />
+                <marker date="1526154256099" expanded="true" signature="2595:2633" ph="SELECT statu... task" />
+                <marker date="1526154256099" expanded="true" signature="2595:2640" ph="SELECT statu... task" />
+                <marker date="1526154256099" expanded="true" signature="2595:2658" ph="SELECT statu... task" />
               </folding>
             </state>
           </provider>
@@ -49,19 +48,19 @@
       <file leaf-file-name="db_filling.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db_filling.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="107" column="22" lean-forward="true" selection-start-line="107" selection-start-column="22" selection-end-line="107" selection-end-column="22" />
+            <state relative-caret-position="2025">
+              <caret line="135" column="26" lean-forward="true" selection-start-line="135" selection-start-column="26" selection-end-line="135" selection-end-column="26" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
-                <marker date="1525976991017" expanded="true" signature="401:452" ph="INSERT INTO type... " />
-                <marker date="1525976991017" expanded="true" signature="587:609" ph="SELECT COUNT... user" />
-                <marker date="1525976991017" expanded="true" signature="587:613" ph="SELECT COUNT... type" />
-                <marker date="1525976991017" expanded="true" signature="724:749" ph="SELECT COUNT... user" />
-                <marker date="1525976991017" expanded="true" signature="853:875" ph="SELECT * FRO... user" />
-                <marker date="1525976991017" expanded="true" signature="1211:1234" ph="SELECT COUNT... task" />
-                <marker date="1525976991017" expanded="true" signature="2401:2512" ph="INSERT INTO task... " />
-                <marker date="1525976991017" expanded="true" signature="2401:2703" ph="INSERT INTO task... " />
-                <marker date="1525976991017" expanded="true" signature="3255:3343" ph="INSERT INTO user... " />
+                <marker date="1526153461505" expanded="true" signature="372:423" ph="INSERT INTO type... " />
+                <marker date="1526153461505" expanded="true" signature="559:581" ph="SELECT COUNT... user" />
+                <marker date="1526153461505" expanded="true" signature="559:585" ph="SELECT COUNT... type" />
+                <marker date="1526153461505" expanded="true" signature="696:721" ph="SELECT COUNT... user" />
+                <marker date="1526153461505" expanded="true" signature="825:847" ph="SELECT * FRO... user" />
+                <marker date="1526153461505" expanded="true" signature="1218:1241" ph="SELECT COUNT... task" />
+                <marker date="1526153461505" expanded="true" signature="2413:2515" ph="INSERT INTO task... " />
+                <marker date="1526153461505" expanded="true" signature="2413:2661" ph="INSERT INTO task... " />
+                <marker date="1526153461505" expanded="true" signature="3282:3368" ph="INSERT INTO user... " />
               </folding>
             </state>
           </provider>
@@ -83,8 +82,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/db_filling.py" />
         <option value="$PROJECT_DIR$/db_connection.py" />
+        <option value="$PROJECT_DIR$/db_filling.py" />
         <option value="$PROJECT_DIR$/class_connection.py" />
       </list>
     </option>
@@ -95,11 +94,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="506" />
-    <option name="y" value="37" />
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
-    <option name="height" value="797" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -154,7 +151,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.db_connection">
+  <component name="RunManager" selected="Python.class_connection">
     <configuration name="class_connection" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -239,9 +236,9 @@
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.db_connection" />
-        <item index="1" class="java.lang.String" itemvalue="Python.class_connection" />
-        <item index="2" class="java.lang.String" itemvalue="Python.db_filling" />
+        <item index="0" class="java.lang.String" itemvalue="Python.class_connection" />
+        <item index="1" class="java.lang.String" itemvalue="Python.db_filling" />
+        <item index="2" class="java.lang.String" itemvalue="Python.db_connection" />
         <item index="3" class="java.lang.String" itemvalue="Python.test" />
       </list>
     </recent_temporary>
@@ -263,14 +260,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="506" y="37" width="1440" height="797" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32842416" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32842416" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27736318" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -306,55 +304,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/db_connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/db_filling.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="107" column="22" lean-forward="true" selection-start-line="107" selection-start-column="22" selection-end-line="107" selection-end-column="22" />
+        <state relative-caret-position="2025">
+          <caret line="135" column="26" lean-forward="true" selection-start-line="135" selection-start-column="26" selection-end-line="135" selection-end-column="26" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1525976991017" expanded="true" signature="401:452" ph="INSERT INTO type... " />
-            <marker date="1525976991017" expanded="true" signature="587:609" ph="SELECT COUNT... user" />
-            <marker date="1525976991017" expanded="true" signature="587:613" ph="SELECT COUNT... type" />
-            <marker date="1525976991017" expanded="true" signature="724:749" ph="SELECT COUNT... user" />
-            <marker date="1525976991017" expanded="true" signature="853:875" ph="SELECT * FRO... user" />
-            <marker date="1525976991017" expanded="true" signature="1211:1234" ph="SELECT COUNT... task" />
-            <marker date="1525976991017" expanded="true" signature="2401:2512" ph="INSERT INTO task... " />
-            <marker date="1525976991017" expanded="true" signature="2401:2703" ph="INSERT INTO task... " />
-            <marker date="1525976991017" expanded="true" signature="3255:3343" ph="INSERT INTO user... " />
+            <marker date="1526153461505" expanded="true" signature="372:423" ph="INSERT INTO type... " />
+            <marker date="1526153461505" expanded="true" signature="559:581" ph="SELECT COUNT... user" />
+            <marker date="1526153461505" expanded="true" signature="559:585" ph="SELECT COUNT... type" />
+            <marker date="1526153461505" expanded="true" signature="696:721" ph="SELECT COUNT... user" />
+            <marker date="1526153461505" expanded="true" signature="825:847" ph="SELECT * FRO... user" />
+            <marker date="1526153461505" expanded="true" signature="1218:1241" ph="SELECT COUNT... task" />
+            <marker date="1526153461505" expanded="true" signature="2413:2515" ph="INSERT INTO task... " />
+            <marker date="1526153461505" expanded="true" signature="2413:2661" ph="INSERT INTO task... " />
+            <marker date="1526153461505" expanded="true" signature="3282:3368" ph="INSERT INTO user... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/class_connection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="89" column="38" lean-forward="false" selection-start-line="89" selection-start-column="38" selection-end-line="89" selection-end-column="38" />
+        <state relative-caret-position="412">
+          <caret line="83" column="52" lean-forward="true" selection-start-line="83" selection-start-column="52" selection-end-line="83" selection-end-column="52" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1525977295696" expanded="true" signature="561:670" ph="select b.nam... task" />
-            <marker date="1525977295696" expanded="true" signature="880:925" ph="SELECT name task" />
-            <marker date="1525977295696" expanded="true" signature="1275:1321" ph="SELECT idtyp... type" />
-            <marker date="1525977295696" expanded="true" signature="1462:1487" ph="SELECT COUNT... task" />
-            <marker date="1525977295696" expanded="true" signature="1667:1780" ph="INSERT INTO task... " />
-            <marker date="1525977295696" expanded="true" signature="2136:2214" ph="UPDATE task... " />
-            <marker date="1525977295696" expanded="true" signature="2306:2384" ph="UPDATE task... " />
-            <marker date="1525977295696" expanded="true" signature="2661:2727" ph="UPDATE task... " />
-            <marker date="1525977295696" expanded="true" signature="2661:2728" ph="UPDATE task... " />
-            <marker date="1525977295696" expanded="true" signature="2661:2732" ph="UPDATE task... " />
-            <marker date="1525977295696" expanded="true" signature="2830:2901" ph="UPDATE task... " />
-            <marker date="1525977295696" expanded="true" signature="3067:3103" ph="SELECT statu... task" />
-            <marker date="1525977295696" expanded="true" signature="3067:3105" ph="SELECT statu... task" />
-            <marker date="1525977295696" expanded="true" signature="3067:3112" ph="SELECT statu... task" />
-            <marker date="1525977295696" expanded="true" signature="3067:3130" ph="SELECT statu... task" />
+            <marker date="1526154256099" expanded="true" signature="541:659" ph="select b.nam... task" />
+            <marker date="1526154256099" expanded="true" signature="541:678" ph="select b.tas... task" />
+            <marker date="1526154256099" expanded="true" signature="541:683" ph="select b.tas... task" />
+            <marker date="1526154256099" expanded="true" signature="1030:1076" ph="SELECT idtyp... type" />
+            <marker date="1526154256099" expanded="true" signature="1247:1345" ph="INSERT INTO task... " />
+            <marker date="1526154256099" expanded="true" signature="1470:1570" ph="INSERT INTO task... " />
+            <marker date="1526154256099" expanded="true" signature="1994:2057" ph="SELECT taski... task" />
+            <marker date="1526154256099" expanded="true" signature="2363:2397" ph="UPDATE task... " />
+            <marker date="1526154256099" expanded="true" signature="2363:2410" ph="UPDATE task... " />
+            <marker date="1526154256099" expanded="true" signature="2595:2631" ph="SELECT statu... task" />
+            <marker date="1526154256099" expanded="true" signature="2595:2633" ph="SELECT statu... task" />
+            <marker date="1526154256099" expanded="true" signature="2595:2640" ph="SELECT statu... task" />
+            <marker date="1526154256099" expanded="true" signature="2595:2658" ph="SELECT statu... task" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db_connection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
