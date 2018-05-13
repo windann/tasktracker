@@ -33,7 +33,7 @@ class Connection:
         category_id = self.cur.fetchone()[0]
 
         if user_token == 'null':
-            sql_query = "INSERT INTO task(date, status, name, type, user_token, base_task_id) VALUES('{}',{},'{}',{},{},{})".format(
+            sql_query = "INSERT INTO task(date, status, name, type, base_task_id) VALUES('{}',{},'{}',{},{})".format(
                 date, status, name, category_id, user_token, base_task_id)
 
         else:
